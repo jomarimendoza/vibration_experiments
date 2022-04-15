@@ -28,10 +28,7 @@ In the MATLAB _Command Window_, enter the following:
 > ->>`extract_vibrations`
 
 #### I. The UD-DASK File Convert Utility will appear same as below.
-<dl>
-<br>
-<center> ![DAQCvt](_contents/utility_converter_application.png) </center>
-</dl>
+![DAQCvt](_contents/utility_converter_application.png) 
 
 #### _STEPS_
 1. **Browse** the _.dat_ file that you want to convert. (Repeat for all files)
@@ -50,19 +47,13 @@ The script will plot the time-domain signal of each column and the startt ime of
 
 - Use the _Data Selector_ tool to select the data points. Default is five (5) points.
 
-<dl>
-<br>
-<center> ![Starts](_contents/starts.png) </center>
-</dl>
+![Starts](_contents/starts.png)
 
 2. Export the data
 
 - Right click on the figure and select _Export Data to workspace_ and name the variable as **s**.
 
-<dl>
-<br>
-<center> ![Starts s](_contents/starts-s.png) </center>
-</dl>
+![Starts s](_contents/starts-s.png) 
 
 #### III. Loading the results
 The results (.mat files) are saved in the _results_dir_. 
